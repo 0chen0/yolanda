@@ -1,0 +1,17 @@
+{
+	"name": "yolanda-docker",
+
+	"dockerFile": "Dockerfile_imp",
+
+	"runArgs": [
+			"--name", "yolanda-container"
+			// , "-p", "20000:22"
+			, "-v", "/Users/dudu/project/share_mac:/root/share"
+			, "--privileged"
+	],
+
+	"extensions": [
+		"ms-vscode.cpptools"
+		, "ms-vscode.cmake-tools"
+	]
+}

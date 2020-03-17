@@ -1,0 +1,5 @@
+FROM common-image:latest
+RUN printf "\n\
+    export myname=yolanda\n\
+    " >> /root/.bashrc
+CMD ["/bin/bash"]
